@@ -100,9 +100,11 @@ let oOrders = {};
 let resScope;
 
 app.post("/payment/", (req, res) => {
-  console.log(req.body);
-  var total = req.body.total;
-  phone = req.body.phone;
+  console.log( req.body);
+  var total = req.body.price;
+  console.log(total);
+  phone = req.body.telephone;
+  console.log(phone);
 
   // console.log(req.body);
   function renderForm(){
