@@ -85,7 +85,7 @@ app.post("/payment/", (req, res) => {
         // This function displays Smart Payment Buttons on your web page.
       </script>
       <p>After your payment, please click the QR Code link below:</p>
-      <a href="https://popup-meal-sms-chatbot.herokuapp.com/payment/YVP11NLZQ1/QRCode">QR Code</a>
+      <a href="https://popup-meal-sms-chatbot.herokuapp.com/QRCode">QR Code</a>
     
     </body>
         
